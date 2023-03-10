@@ -1,0 +1,30 @@
+.link {
+    width: 15vw;
+    height: 15vw;
+    position: relative;
+}
+
+.link__item {
+    border: #db7575 1px solid;
+    cursor: pointer;
+    width: 15vw;
+    height: 15vw;
+    border-radius: 50%;
+    float: left;
+}
+
+.link__item_first {
+    background: url('../../images/Greece.JPG') 0 0/cover no-repeat;
+}
+
+.link__item_second {
+    background: url('../../images/Vegiteble.jpg') 0 0/cover no-repeat;
+}
+
+.link__item_third {
+    background: url('../../images/Victory.jpg') 0 0/cover no-repeat;
+}
+
+.link__item:hover {
+    border: #710836 3px solid;
+}

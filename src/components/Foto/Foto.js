@@ -8,8 +8,8 @@ function Foto({onCardClick, fotograph}) {
   }
 
   return (
-    <li className="foto-book__item-container">
-      <img className="foto-book__item" src={fotograph.img} alt={fotograph.description} onClick={handleClick}/>
+    <li className="foto">
+      <img className="foto__item" src={fotograph.img} alt={fotograph.description} onClick={handleClick}/>
     </li>
   );
 }

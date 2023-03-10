@@ -27,15 +27,15 @@ import family8 from "../images/FotoBook3/family8.JPG";
 
 export const MAIN_NAVIGATION = [
   {
-    classImg: 'links__link_first',
+    classImg: 'link__item_first',
     flag: 'Turizm'
   },
   {
-    classImg: 'links__link_second',
+    classImg: 'link__item_second',
     flag: 'Dacha'
   },
   {
-    classImg: 'links__link_third',
+    classImg: 'link__item_third',
     flag: 'Family'
   },
 ]

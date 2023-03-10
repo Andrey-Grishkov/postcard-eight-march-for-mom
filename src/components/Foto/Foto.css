@@ -1,0 +1,16 @@
+.foto {
+    width: 19vw;
+    height: 25vh;
+    position: relative;
+}
+
+.foto__item {
+    margin: 0;
+    width: 19vw;
+    height: 25vh;
+    object-fit: cover;
+    cursor: pointer;
+    float: left;
+    z-index: 2;
+    position: absolute;
+}

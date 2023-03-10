@@ -10,10 +10,12 @@
 }
 
 .foto-book__title {
+    margin-top: 3vh;
     font-size: 32px;
 }
 
 .foto-book__text {
+    margin-top: 3vh;
     text-indent: 10vw;
     margin-left: 5vw;
     font-size: 14px;
@@ -32,22 +34,4 @@
     row-gap: 1vh;
     column-gap: 1.2vw;
     justify-content: center;
-}
-
-.foto-book__item-container {
-    width: 19vw;
-    height: 25vh;
-    position: relative;
-
-}
-
-.foto-book__item {
-    margin: 0;
-    width: 19vw;
-    height: 25vh;
-    object-fit: cover;
-    cursor: pointer;
-    float: left;
-    z-index: 2;
-    position: absolute;
 }

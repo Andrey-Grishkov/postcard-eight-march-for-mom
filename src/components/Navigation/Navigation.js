@@ -7,7 +7,7 @@ function Navigation({handleClickNavigation}) {
 
   return (
       <nav className='navigation'>
-        <ul className='links'>
+        <ul className='navigation__links'>
           {MAIN_NAVIGATION.map((foto, item) => (
             <NavigationItem
               classImg={foto.classImg}

@@ -11,8 +11,8 @@ function NavigationItem({handleClickNavigation, flag, classImg}) {
   }
 
   return (
-        <li className='links__link-container'>
-          <Link className={`links__link ${classImg}`} to='/foto-albom' onClick={handleClick}>
+        <li className='link'>
+          <Link className={`link__item ${classImg}`} to='/foto-albom' onClick={handleClick}>
           </Link>
         </li>
   );
