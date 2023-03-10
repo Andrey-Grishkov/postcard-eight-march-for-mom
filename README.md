@@ -45,6 +45,6 @@ ___
 
 ### 🚀 Инструкция по запуску на локальной машине:
 * Установить [Node.js](https://nodejs.org/ru/)
-* Клонировать репозиторий ``` git clone git@github.com:Andrey-Grishkov/samgstudist.git```
+* Клонировать репозиторий ``` git clone git@github.com:Andrey-Grishkov/postcard-eight-march-for-mom.git```
 * Установить зависимости ``` npm install ```
 * Запустить приложение ``` npm run start ```
